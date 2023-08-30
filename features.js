@@ -29,7 +29,7 @@ const addNewNote = (text)=>{
         </div>
         <div class="main">
             <label for="text">Write....</label>
-            <textarea name="textArea" id="text" cols="48" rows="10"></textarea>
+            <textarea name="textArea" id="text" cols="45" rows="10"></textarea>
         </div>`;
 
     note.insertAdjacentHTML('afterbegin',htmlData);
